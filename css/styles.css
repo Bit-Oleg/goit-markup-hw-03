@@ -6,15 +6,42 @@ body {
 ol,
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /*  #region header */
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.heder-container {
+  display: flex;
+  align-items: center;
 }
 
 .nav {
+  display: flex;
+  align-items: center;
+}
+.heder-logo {
+  padding: 24px 0;
+  margin: 76px;
 }
 
 .logo {
@@ -31,12 +58,18 @@ a {
 }
 
 .menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .menu-item {
 }
 
 .menu-link {
+  display: block;
+  padding: 24px 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -49,16 +82,22 @@ a {
 }
 
 .address {
+  margin-left: auto;
   font-style: normal;
 }
 
 .menu-address {
+  gap: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .menu-address-item {
 }
 
 .menu-address-link {
+  display: block;
+  margin: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
