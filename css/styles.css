@@ -302,9 +302,12 @@ a {
 /*  #endregion portfolio */
 /*  #region footer */
 .footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 .footer-link {
+  margin-bottom: 16px;
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -318,6 +321,7 @@ a {
 }
 
 .footer-text {
+  max-width: 264px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
